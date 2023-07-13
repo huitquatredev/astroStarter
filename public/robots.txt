@@ -1,0 +1,8 @@
+Sitemap: [***REPLACE WITH YOUR URL***]/sitemap-index.xml
+
+User-agent: *
+Disallow: /
+
+//READY FOR PRODUCTION ?
+//User-agent: *
+//Disallow:

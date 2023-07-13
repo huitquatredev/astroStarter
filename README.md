@@ -1,14 +1,17 @@
-# Astro Starter Kit: Minimal
+# Astro Starter Kit for huitquatre websites
 
 ```
-npm create astro@latest -- --template minimal
+git clone git@github.com:huitquatredev/astroStarter.git MY-NEW-PROJECT
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## 💄 Dependencies
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+- ![sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white) you can use it with `<style lang=scss>`.
+- ![tailwind](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) you can even use `@apply` directives.
+- [sitemap](https://docs.astro.build/en/guides/integrations-guide/sitemap/) : automatic sitemap generation.
+- [icon](https://github.com/natemoo-re/astro-icon#readme) : use it with `import {Icon} from 'astro-icon'` and `<Icon pack="mdi" name="account" />`. List of icons [here](https://iconify.design/).
+- [critters](https://github.com/astro-community/astro-critters#readme) : inline critical CSS.
+- [compress](https://github.com/astro-community/astro-compress#readme) : compress all assets (html, css, js etc) after build.
 
 ## 🚀 Project Structure
 
@@ -17,9 +20,18 @@ Inside of your Astro project, you'll see the following folders and files:
 ```
 /
 ├── public/
+│   └── favicon/
+│   │   └── All favicons live here
+│   └── ogImage/
+│   │   └── fallback OG image
+│   └── robots.txt
 ├── src/
+│   └── components/
+│   │   └── All astro components live here
+│   └── layouts/
+│   │   └── All layouts live here
 │   └── pages/
-│       └── index.astro
+│       └── All pages live here
 └── package.json
 ```
 
@@ -42,6 +54,9 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## 📌 TODO List
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- ✅ Uploads the favicons
+- ✅ Upload the OG fallback image
+- ✅ Change the robots.txt for production
+- ✅ Change the "site" value in astro.config.mjs
