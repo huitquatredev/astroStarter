@@ -25,8 +25,6 @@ Inside of your Astro project, you'll see the following folders and files:
 ├── public/
 │   └── favicon/
 │   │   └── All favicons live here
-│   └── ogImage/
-│   │   └── fallback OG image
 │   └── robots.txt
 ├── src/
 │   └── components/
