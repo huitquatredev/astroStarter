@@ -4,6 +4,7 @@
 git clone git@github.com:huitquatredev/astroStarter.git MY-NEW-PROJECT
 cd MY-NEW-PROJECT
 git remote set-url origin git@github.com:huitquatredev/MY-NEW-PROJECT.git
+npm install
 ```
 
 ## 💄 Dependencies
